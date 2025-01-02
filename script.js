@@ -11,13 +11,13 @@ const seeMagic = document.getElementById('magic');
 const canvas = document.getElementById('newyear');
 
 // Countdown background music
-const backgroundMusic = new Audio('https://raw.githubusercontent.com/Ahmad-Superaby/hny/e468d1d6a7feff92c62e536a6e898f404b293814/happy-new-year2.mp3');
+const backgroundMusic = new Audio('happy-new-year2.mp3');
 backgroundMusic.loop = false;
 backgroundMusic.volume = 0.1;
 
 // Fireworks celebration music and sound
-const explosionSound = new Audio('https://raw.githubusercontent.com/Ahmad-Superaby/hny/e468d1d6a7feff92c62e536a6e898f404b293814/explosion.mp3');
-const newYearMusic = new Audio('https://raw.githubusercontent.com/Ahmad-Superaby/hny/e468d1d6a7feff92c62e536a6e898f404b293814/newyear.mp3');
+const explosionSound = new Audio('explosion.mp3');
+const newYearMusic = new Audio('newyear.mp3');
 newYearMusic.loop = true;
 newYearMusic.volume = 0.2;
 
