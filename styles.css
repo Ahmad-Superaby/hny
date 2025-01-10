@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #020202, #151515);
+  font-family: Arial, sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.animation-container {
+  text-align: center;
+}
+
+.text-display {
+  
+  max-width: 100%;
+  font-size: 1em;
+  font-style: italic;
+  padding: 1em;
+  margin: 0.2em 0.5em;
+  border-radius: 0.5em;
+  font-style: 'Poppins', sans-serif;
+  animation: fade 1.5s infinite alternate ease-in-out;
+}
+
+.heading {
+  padding: 0.6em 0;
+  margin: 0.7rem 0.5rem;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: 'Poppins', sans-serif;
+  animation: fade 1.5s infinite alternate ease-in-out;
+}
+
+#me {
+  width: 10em;
+  background: linear-gradient(to right, #101010, #252525, #353535);
+  font-weight: 700;
+  text-align: center;
+  color: #007BFF;
+  font-family: Georgia;
+  font-size: 2em;
+  padding: 0.2em 0;
+  margin: 1em 0.4em;
+  border: 0.07em solid #007BFF;
+  border-radius: 0.5em;
+}
+
+#ctb {
+  width: 18em;
+  font-family: Georgia;
+  background: linear-gradient(to right, #007BFF, #5555FF);
+  text-align: center;
+  padding: 1.5em 1em 1.5em 1em;
+  font-size: 1rem;
+  margin: 0 0.9em 2em 0.9em;
+  border: 0.05em solid #fff;
+  border-radius: 1em;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+button {
+  margin: 1em 0 6em 0;
+  width: 12em;
+  height: 2.2em;
+  padding: 0;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007BFF;
+  border: 0.05em solid #fff;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+canvas {
+  display: block;
+}
+
+.hnyear {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 3em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.author, .magic {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: Georgia;
+  font-weight: 500;
+  font-size: 1.5em;
+  font-style: italic;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#author {
+  font-style: italic;
+  color: #007BFF;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+#magic {
+  width: 95%;
+  top: 80%;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+#hny2025 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 58%;
+  left: 50%;
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  transform: translate(-50%, -50%);
+  color: #007BFF;
+  font-size: 6em;
+  font-weight: 800;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
+}
